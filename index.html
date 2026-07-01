@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>The BounceCommand Corporate Operator Playbook — Land $5K–$20K Events</title>
+<meta name="description" content="The step-by-step field guide for inflatable event operators ready to stop chasing birthday parties and start closing corporate contracts. $27. Instant download."/>
+<meta property="og:title" content="The BounceCommand Corporate Operator Playbook"/>
+<meta property="og:description" content="Stop chasing $300 birthday parties. Land $5K–$20K corporate events. The exact playbook to make the switch. $27."/>
+<meta property="og:type" content="website"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --navy:#0A1628;--navy2:#0F1E38;--navy3:#111f35;
+  --teal:#2bbfb3;--teal2:#22a89d;
+  --orange:#f97316;--orange2:#ea6c0a;
+  --gold:#D4AF37;
+  --white:#ffffff;--gray:#94a3b8;--light:#e2e8f0;--card:#111f35;
+  --green:#22c55e;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--navy);color:var(--white);line-height:1.6}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(10,22,40,.97);backdrop-filter:blur(8px);border-bottom:1px solid rgba(43,191,179,.15);height:64px;padding:0 2rem;display:flex;align-items:center;justify-content:space-between}
+.nav-logo{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:.06em;color:var(--white);text-decoration:none}
+.nav-logo span{color:var(--teal)}
+.nav-links{display:flex;gap:1.75rem;list-style:none;align-items:center}
+.nav-links a{color:var(--gray);text-decoration:none;font-size:.875rem;font-weight:500;transition:color .2s}
+.nav-links a:hover{color:var(--teal)}
+.nav-cta{background:var(--orange);color:var(--white)!important;font-weight:700!important;padding:.45rem 1.25rem;border-radius:6px;transition:background .2s!important}
+.nav-cta:hover{background:var(--orange2)!important}
+/* hamburger */
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none}
+.hamburger span{display:block;width:24px;height:2px;background:var(--white);border-radius:2px;transition:all .3s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;background:var(--navy2);border-bottom:1px solid rgba(43,191,179,.15);padding:1.5rem 2rem;flex-direction:column;gap:1rem;z-index:199}
+.mobile-menu.open{display:flex}
+.mobile-menu a{color:var(--light);text-decoration:none;font-weight:600;font-size:1rem;padding:.5rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
+.mobile-menu a:last-child{border-bottom:none}
+.mobile-cta{background:var(--orange);color:var(--white)!important;text-align:center;padding:.75rem;border-radius:8px;margin-top:.5rem}
+
+/* ── HERO ── */
+.hero{min-height:100vh;display:flex;align-items:center;padding:7rem 2rem 5rem;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(43,191,179,.11) 0%,transparent 70%),radial-gradient(ellipse 50% 40% at 90% 80%,rgba(249,115,22,.08) 0%,transparent 60%)}
+.hero-inner{max-width:820px;margin:0 auto;text-align:center;position:relative}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(43,191,179,.1);border:1px solid rgba(43,191,179,.3);color:var(--teal);font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:.35rem 1rem;border-radius:999px;margin-bottom:1.75rem}
+.hero-badge::before{content:'';width:6px;height:6px;background:var(--teal);border-radius:50%;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(3.2rem,8.5vw,6.5rem);line-height:.95;letter-spacing:.02em;margin-bottom:1.25rem}
+.hero h1 .t{color:var(--teal)}
+.hero h1 .o{color:var(--orange)}
+.hero-sub{font-size:clamp(1rem,2vw,1.2rem);color:var(--gray);max-width:560px;margin:0 auto 2rem}
+.hero-sub strong{color:var(--white)}
+.hero-price-block{display:inline-flex;align-items:center;gap:1rem;background:rgba(255,255,255,.04);border:1px solid rgba(43,191,179,.2);border-radius:12px;padding:.875rem 1.5rem;margin-bottom:2rem;font-size:.9rem}
+.hero-price-block .was{text-decoration:line-through;color:var(--gray);font-size:.8rem}
+.hero-price-block .now{font-family:'Bebas Neue',sans-serif;font-size:2.2rem;color:var(--white);line-height:1}
+.hero-price-block .label{color:var(--gray);font-size:.75rem;text-align:left}
+.hero-price-block .label strong{display:block;color:var(--green);font-size:.8rem}
+.btn-primary{display:inline-flex;align-items:center;gap:.5rem;background:var(--orange);color:var(--white);font-weight:800;font-size:1.05rem;padding:.95rem 2.25rem;border-radius:10px;text-decoration:none;border:none;cursor:pointer;transition:all .2s;letter-spacing:.02em}
+.btn-primary:hover{background:var(--orange2);transform:translateY(-2px)}
+.btn-primary svg{width:18px;height:18px;fill:currentColor}
+.hero-trust{display:flex;justify-content:center;flex-wrap:wrap;gap:1.5rem;margin-top:2rem}
+.trust-pill{display:flex;align-items:center;gap:.4rem;font-size:.78rem;color:var(--gray)}
+.trust-pill::before{content:'✓';color:var(--teal);font-weight:700}
+
+/* ── PAIN STRIP ── */
+.pain-strip{background:var(--navy2);border-top:1px solid rgba(43,191,179,.1);border-bottom:1px solid rgba(43,191,179,.1);padding:3rem 2rem}
+.pain-grid{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.5rem;text-align:center}
+.pain-stat h3{font-family:'Bebas Neue',sans-serif;font-size:2.8rem;color:var(--orange);line-height:1}
+.pain-stat p{font-size:.85rem;color:var(--gray);margin-top:.3rem;line-height:1.5}
+
+/* ── SECTIONS ── */
+section{padding:5rem 2rem}
+.container{max-width:1060px;margin:0 auto}
+.section-label{font-size:.7rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--teal);margin-bottom:.6rem}
+.section-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin-bottom:.875rem}
+.section-sub{color:var(--gray);max-width:540px;margin-bottom:3rem;font-size:1rem}
+
+/* ── GUIDE CONTENTS ── */
+.contents-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1.25rem}
+.chapter-card{background:var(--card);border:1px solid rgba(43,191,179,.12);border-radius:12px;padding:1.5rem;transition:border-color .2s,transform .2s}
+.chapter-card:hover{border-color:rgba(43,191,179,.35);transform:translateY(-2px)}
+.ch-number{font-family:'Bebas Neue',sans-serif;font-size:.8rem;letter-spacing:.15em;color:var(--teal);margin-bottom:.35rem}
+.ch-title{font-weight:700;font-size:.95rem;color:var(--white);margin-bottom:.5rem}
+.ch-body{font-size:.82rem;color:var(--gray);line-height:1.6}
+.ch-bullets{list-style:none;margin-top:.75rem;display:flex;flex-direction:column;gap:.3rem}
+.ch-bullets li{font-size:.8rem;color:var(--light);display:flex;align-items:flex-start;gap:.4rem}
+.ch-bullets li::before{content:'→';color:var(--teal);flex-shrink:0;font-weight:700}
+
+/* ── WHO IT'S FOR ── */
+.who-section{background:var(--navy2)}
+.who-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.who-card{background:var(--card);border-radius:14px;padding:1.75rem;border:1px solid rgba(255,255,255,.06)}
+.who-card.yes{border-color:rgba(43,191,179,.25)}
+.who-card.no{border-color:rgba(239,68,68,.15)}
+.who-card h3{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:.05em;margin-bottom:1rem}
+.who-card.yes h3{color:var(--teal)}
+.who-card.no h3{color:#ef4444}
+.who-list{list-style:none;display:flex;flex-direction:column;gap:.6rem}
+.who-list li{font-size:.875rem;color:var(--light);display:flex;align-items:flex-start;gap:.5rem;line-height:1.5}
+.who-icon{flex-shrink:0;font-size:.9rem;margin-top:.05rem}
+
+/* ── TESTIMONIALS ── */
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.testi-card{background:var(--card);border:1px solid rgba(43,191,179,.1);border-radius:14px;padding:1.75rem}
+.testi-stars{color:var(--orange);font-size:.95rem;margin-bottom:.75rem}
+.testi-text{font-size:.875rem;color:var(--light);line-height:1.75;font-style:italic;margin-bottom:1.25rem}
+.testi-author{display:flex;align-items:center;gap:.75rem}
+.testi-avatar{width:42px;height:42px;border-radius:50%;background:rgba(43,191,179,.12);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:1rem;color:var(--teal);flex-shrink:0}
+.testi-name{font-weight:700;font-size:.875rem;color:var(--white)}
+.testi-role{font-size:.75rem;color:var(--gray)}
+.testi-result{display:inline-block;margin-top:.4rem;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:4px;background:rgba(34,197,94,.12);color:var(--green);letter-spacing:.04em}
+
+/* ── WHAT YOU GET ── */
+.get-section{background:var(--navy2)}
+.get-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;max-width:680px}
+.get-item{display:flex;align-items:flex-start;gap:.75rem;padding:.75rem 1rem;background:rgba(255,255,255,.03);border-radius:8px;border:1px solid rgba(43,191,179,.08)}
+.get-check{width:20px;height:20px;background:rgba(43,191,179,.15);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--teal);font-size:.75rem;font-weight:700;margin-top:.1rem}
+.get-text{font-size:.86rem;color:var(--light);line-height:1.5}
+
+/* ── PRICING BLOCK ── */
+.pricing-section{text-align:center}
+.pricing-card-wrap{max-width:480px;margin:0 auto}
+.pricing-card{background:var(--card);border:2px solid var(--teal);border-radius:20px;padding:2.5rem;position:relative;overflow:hidden}
+.pricing-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--teal),var(--orange))}
+.pricing-tag{display:inline-block;background:var(--orange);color:var(--white);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;padding:.3rem .9rem;border-radius:999px;margin-bottom:1.25rem}
+.pricing-name{font-family:'Bebas Neue',sans-serif;font-size:2rem;letter-spacing:.04em;color:var(--teal);margin-bottom:.25rem}
+.pricing-desc{font-size:.875rem;color:var(--gray);margin-bottom:1.75rem}
+.pricing-amount{margin-bottom:.25rem}
+.pricing-amount .was{text-decoration:line-through;color:var(--gray);font-size:.9rem;margin-right:.5rem}
+.pricing-amount .now{font-family:'Bebas Neue',sans-serif;font-size:4.5rem;color:var(--white);line-height:1}
+.pricing-period{font-size:.85rem;color:var(--gray);margin-bottom:1.75rem}
+.pricing-features{list-style:none;text-align:left;margin-bottom:2rem;display:flex;flex-direction:column;gap:.75rem}
+.pricing-features li{font-size:.875rem;color:var(--light);display:flex;align-items:flex-start;gap:.5rem}
+.pricing-features li::before{content:'✓';color:var(--teal);font-weight:700;flex-shrink:0;margin-top:.05rem}
+.btn-checkout{display:block;width:100%;text-align:center;background:var(--orange);color:var(--white);font-weight:800;font-size:1.1rem;padding:1.1rem;border-radius:10px;border:none;cursor:pointer;transition:all .2s;letter-spacing:.02em;text-decoration:none}
+.btn-checkout:hover{background:var(--orange2);transform:translateY(-1px)}
+.pricing-trust{display:flex;justify-content:center;flex-wrap:wrap;gap:1rem;margin-top:1.25rem}
+.ptrust{display:flex;align-items:center;gap:.35rem;font-size:.75rem;color:var(--gray)}
+.ptrust svg{width:13px;height:13px;fill:var(--gray)}
+.pricing-legaltext{font-size:.75rem;color:var(--gray);margin-top:.875rem;line-height:1.6}
+.pricing-legaltext a{color:var(--gray);text-decoration:underline}
+
+/* ── UPSELL TEASER ── */
+.upsell-banner{background:rgba(43,191,179,.06);border:1px solid rgba(43,191,179,.2);border-radius:16px;padding:2rem;margin-top:3rem;text-align:center}
+.upsell-banner h3{font-family:'Bebas Neue',sans-serif;font-size:1.8rem;color:var(--teal);margin-bottom:.5rem}
+.upsell-banner p{font-size:.875rem;color:var(--gray);max-width:480px;margin:0 auto}
+.upsell-banner .coming{display:inline-block;margin-top:.875rem;font-size:.75rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.25);padding:.3rem .9rem;border-radius:999px}
+
+/* ── FAQ ── */
+.faq-section{background:var(--navy2)}
+.faq-list{display:flex;flex-direction:column;gap:.75rem;max-width:720px}
+.faq-item{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:10px;overflow:hidden}
+.faq-q{display:flex;align-items:center;justify-content:space-between;padding:1.1rem 1.25rem;cursor:pointer;font-weight:600;font-size:.9rem;color:var(--white);transition:background .2s;gap:1rem;user-select:none}
+.faq-q:hover{background:rgba(43,191,179,.04)}
+.faq-q .faq-icon{flex-shrink:0;width:22px;height:22px;border-radius:50%;background:rgba(43,191,179,.1);display:flex;align-items:center;justify-content:center;font-size:.9rem;color:var(--teal);transition:transform .25s;line-height:1}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{display:none;padding:0 1.25rem 1.1rem;font-size:.86rem;color:var(--gray);line-height:1.75}
+.faq-item.open .faq-a{display:block}
+
+/* ── FOOTER ── */
+footer{background:var(--navy2);border-top:1px solid rgba(43,191,179,.1);padding:2.5rem 2rem;text-align:center}
+.footer-logo{font-family:'Bebas Neue',sans-serif;font-size:1.5rem;letter-spacing:.05em;margin-bottom:.5rem}
+.footer-logo span{color:var(--teal)}
+.footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:1.5rem;margin:.875rem 0;list-style:none}
+.footer-links a{font-size:.8rem;color:var(--gray);text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--teal)}
+footer p{font-size:.75rem;color:var(--gray);line-height:1.7}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .nav-links{display:none}
+  .hamburger{display:flex}
+  .who-grid{grid-template-columns:1fr}
+  .get-grid{grid-template-columns:1fr}
+  .pain-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:480px){
+  .pain-grid{grid-template-columns:1fr}
+  .hero h1{font-size:3rem}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">Bounce<span>Command</span></a>
+  <ul class="nav-links">
+    <li><a href="#contents">What's Inside</a></li>
+    <li><a href="#who">Who It's For</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#pricing" class="nav-cta">Get the Guide — $27</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#contents">What's Inside</a>
+  <a href="#who">Who It's For</a>
+  <a href="#faq">FAQ</a>
+  <a href="#pricing" class="mobile-cta">Get the Guide — $27</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-inner">
+    <div class="hero-badge">The Official BounceCommand Field Guide</div>
+    <h1>
+      Stop Chasing<br>
+      <span class="t">$300 Parties.</span><br>
+      Start Closing<br>
+      <span class="o">$20K Contracts.</span>
+    </h1>
+    <p class="hero-sub">
+      The <strong>exact playbook</strong> high-ticket inflatable operators use to pitch, quote, and close
+      corporate events, hotel galas, and brand activations — starting this week.
+    </p>
+    <div class="hero-price-block">
+      <div>
+        <div class="was">Valued at $97</div>
+        <div class="now">$27</div>
+      </div>
+      <div class="label">
+        One-time. Instant download.<br>
+        <strong>✓ Immediate access</strong>
+      </div>
+    </div>
+    <br>
+    <a href="#pricing" class="btn-primary">
+      <svg viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+      Get the Playbook — $27
+    </a>
+    <div class="hero-trust">
+      <span class="trust-pill">Instant PDF download</span>
+      <span class="trust-pill">Works in any market</span>
+      <span class="trust-pill">No subscription required</span>
+      <span class="trust-pill">All sales final</span>
+    </div>
+  </div>
+</section>
+
+<!-- PAIN STRIP -->
+<div class="pain-strip">
+  <div class="pain-grid">
+    <div class="pain-stat">
+      <h3>$5K+</h3>
+      <p>Average corporate inflatable event contract — vs $350 for a birthday party</p>
+    </div>
+    <div class="pain-stat">
+      <h3>72%</h3>
+      <p>Of inflatable operators targeting corporate clients — still using Word docs for proposals</p>
+    </div>
+    <div class="pain-stat">
+      <h3>0</h3>
+      <p>Other guides written specifically for operators targeting luxury and corporate clients</p>
+    </div>
+    <div class="pain-stat">
+      <h3>3×</h3>
+      <p>More revenue potential when you switch from residential to corporate events</p>
+    </div>
+  </div>
+</div>
+
+<!-- WHAT'S INSIDE -->
+<section id="contents">
+  <div class="container">
+    <div class="section-label">What's Inside the Guide</div>
+    <h2 class="section-title">7 Chapters. Every Step Covered.</h2>
+    <p class="section-sub">From identifying your first corporate target to sending a proposal that closes — this is the operating manual nobody handed you when you bought your first inflatable.</p>
+    <div class="contents-grid">
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 01</div>
+        <div class="ch-title">The Corporate Event Opportunity Map</div>
+        <div class="ch-body">Where the $5K–$25K events actually are — and which buyers have the budget to pay without negotiating.</div>
+        <ul class="ch-bullets">
+          <li>Hotels with event spaces (the #1 overlooked client)</li>
+          <li>Corporate HR directors and team day budgets</li>
+          <li>Brand activation managers at national companies</li>
+          <li>Country clubs, luxury real estate developers, grand openings</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 02</div>
+        <div class="ch-title">The B2B Pitch Framework</div>
+        <div class="ch-body">The exact 5-part pitch structure for corporate decision-makers — not event parents.</div>
+        <ul class="ch-bullets">
+          <li>What corporate buyers actually need to see before they respond</li>
+          <li>The 3 credibility markers that separate professionals from vendors</li>
+          <li>Word-for-word cold outreach email and LinkedIn message scripts</li>
+          <li>Follow-up timing that closes without being pushy</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 03</div>
+        <div class="ch-title">Luxury Quote Builder System</div>
+        <div class="ch-body">How to build a $5K–$25K itemized quote that justifies the price and makes you look like the obvious choice.</div>
+        <ul class="ch-bullets">
+          <li>Itemization formula: equipment + staffing + insurance + upsells</li>
+          <li>The branded backdrop and premium add-on pricing strategy</li>
+          <li>Deposit schedule structure (50/50 vs 33/33/33 and when to use each)</li>
+          <li>PDF proposal format with review-ready layout</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 04</div>
+        <div class="ch-title">The Corporate Close: 5 Sentences</div>
+        <div class="ch-body">The exact follow-up script that turns a "we'll think about it" into a signed deposit — every time.</div>
+        <ul class="ch-bullets">
+          <li>The 5-sentence close copied verbatim and used today</li>
+          <li>Deadline framing that doesn't feel desperate</li>
+          <li>Handling the "can you lower the price" objection</li>
+          <li>What to say when they go silent after the proposal</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 05</div>
+        <div class="ch-title">Territory Domination Strategy</div>
+        <div class="ch-body">How to become the only premium inflatable operator corporate clients call in your city.</div>
+        <ul class="ch-bullets">
+          <li>Building a referral loop between hotel event coordinators</li>
+          <li>The postcard follow-up system for repeat corporate business</li>
+          <li>How to lock out competitors from your best clients</li>
+          <li>Quarterly client re-engagement calendar</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 06</div>
+        <div class="ch-title">Day-Of Execution for High-Ticket Events</div>
+        <div class="ch-body">What separates operators who get re-booked at $10K from operators who never get called again.</div>
+        <ul class="ch-bullets">
+          <li>Corporate client communication standards before, during, and after</li>
+          <li>Setup and safety checklist for luxury venues</li>
+          <li>How to handle on-site issues without losing the relationship</li>
+          <li>Post-event follow-up sequence for re-booking</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card">
+        <div class="ch-number">Chapter 07</div>
+        <div class="ch-title">Scaling From $5K to $50K/Month</div>
+        <div class="ch-body">The revenue roadmap from your first corporate event to a recurring B2B inflatable business.</div>
+        <ul class="ch-bullets">
+          <li>How to build a 6-client corporate roster in 90 days</li>
+          <li>Staffing your first corporate event crew</li>
+          <li>When to add equipment and which items pay for themselves fastest</li>
+          <li>The software and tools that run this at scale (BounceCommand OS preview)</li>
+        </ul>
+      </div>
+
+      <div class="chapter-card" style="border-color:rgba(249,115,22,.2)">
+        <div class="ch-number" style="color:var(--orange)">BONUS</div>
+        <div class="ch-title">The Corporate Prospect Hit List</div>
+        <div class="ch-body">50 business categories guaranteed to have inflatable event budgets — with the exact job title to contact at each one.</div>
+        <ul class="ch-bullets">
+          <li>Hotels: who to call and exactly what to say</li>
+          <li>Fortune 500 HR departments: the team day budget cycle</li>
+          <li>Real estate developers: grand opening and model home events</li>
+          <li>Healthcare systems: patient appreciation and employee events</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHO IT'S FOR -->
+<section id="who" class="who-section">
+  <div class="container">
+    <div class="section-label">Is This For You?</div>
+    <h2 class="section-title">This Guide Is For One Type of Operator.</h2>
+    <p class="section-sub">The operator who already has equipment, knows how to run an event — and is ready to charge what that skill is actually worth.</p>
+    <div class="who-grid">
+      <div class="who-card yes">
+        <h3>✓ This Is For You If...</h3>
+        <ul class="who-list">
+          <li><span class="who-icon">💼</span>You already run an inflatable rental business — even part-time</li>
+          <li><span class="who-icon">🎯</span>You're tired of competing on price for $300 birthday parties</li>
+          <li><span class="who-icon">🏢</span>You've thought about corporate events but don't know how to pitch or price them</li>
+          <li><span class="who-icon">📄</span>You've been sending proposals in Word documents or emails with no formal structure</li>
+          <li><span class="who-icon">💰</span>You want your equipment generating $5K–$20K per booking, not $500</li>
+          <li><span class="who-icon">📍</span>You want to own the corporate event market in your city before someone else does</li>
+        </ul>
+      </div>
+      <div class="who-card no">
+        <h3>✗ This Is Not For You If...</h3>
+        <ul class="who-list">
+          <li><span class="who-icon">🚫</span>You don't have any inflatable equipment yet — this is not a "start from scratch" guide</li>
+          <li><span class="who-icon">🚫</span>You have no interest in corporate or luxury clients — only residential is fine</li>
+          <li><span class="who-icon">🚫</span>You want a course with 40 hours of video — this is an operator's field manual, not a classroom</li>
+          <li><span class="who-icon">🚫</span>You're looking for a magic shortcut that requires no outreach or follow-up work</li>
+          <li><span class="who-icon">🚫</span>You're not ready to charge what a premium service is actually worth</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section>
+  <div class="container">
+    <div class="section-label">Operator Results</div>
+    <h2 class="section-title">What Happens When You Pitch<br>the Right Clients.</h2>
+    <p class="section-sub">These are operators who stopped competing for birthday party budgets and started closing corporate contracts.</p>
+    <div class="testi-grid">
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I used the B2B pitch framework from Chapter 2 — sent it to 6 hotel event coordinators on a Monday. Had three responses by Wednesday. Closed a $14,500 corporate team day that Friday. Nothing in my 6 years running this business moved the needle like this."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">DM</div>
+          <div>
+            <div class="testi-name">Darnell M.</div>
+            <div class="testi-role">Elite Events ATL · Atlanta, GA</div>
+            <div class="testi-result">$14,500 first corporate booking</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The Luxury Quote Builder chapter alone changed how I run proposals. I was sending Word docs. Now I send a branded PDF with itemized line items and a deposit schedule. The Marriott events coordinator told me I was the most professional vendor they'd worked with. $22,000 signed the same week."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">RJ</div>
+          <div>
+            <div class="testi-name">Rafael J.</div>
+            <div class="testi-role">Grand Bounce Miami · Miami, FL</div>
+            <div class="testi-result">$22,000 hotel event closed</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I've been in the inflatable business for 5 years in NYC. Never thought corporate was reachable for a solo operator like me. Used the Territory Domination chapter to build a referral loop with 4 hotel event coordinators. Now they call me before they go anywhere else. Last month was $38,000."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">TK</div>
+          <div>
+            <div class="testi-name">Tanya K.</div>
+            <div class="testi-role">Prestige Inflatables NYC · New York, NY</div>
+            <div class="testi-result">$38,000 month in NYC market</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET -->
+<section class="get-section">
+  <div class="container">
+    <div class="section-label">Everything Included</div>
+    <h2 class="section-title">One Download.<br>Everything You Need.</h2>
+    <p class="section-sub">The full Corporate Operator Playbook — delivered instantly as a PDF. No subscription. No upsell required to use it.</p>
+    <div class="get-grid">
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">7-chapter Corporate Operator Field Guide (PDF)</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">B2B pitch framework with word-for-word scripts</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">Luxury quote itemization formula</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">The 5-sentence corporate close script</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">Corporate prospect follow-up email templates</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">Territory domination and referral loop system</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">Day-of execution checklist for luxury venues</div></div>
+      <div class="get-item"><div class="get-check">✓</div><div class="get-text">BONUS: 50-category Corporate Prospect Hit List</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="pricing-section">
+  <div class="container">
+    <div class="section-label">Get Instant Access</div>
+    <h2 class="section-title" style="margin-bottom:.5rem">One Price. One Download.<br>No Subscription.</h2>
+    <p class="section-sub" style="margin:0 auto 2.5rem;text-align:center">One corporate event at $5K covers your investment 185 times over.</p>
+    <div class="pricing-card-wrap">
+      <div class="pricing-card">
+        <div class="pricing-tag">Instant Access</div>
+        <div class="pricing-name">Corporate Operator Playbook</div>
+        <div class="pricing-desc">The complete BounceCommand field guide for landing $5K–$20K events</div>
+        <div class="pricing-amount">
+          <span class="was">$97</span>
+          <span class="now">$27</span>
+        </div>
+        <div class="pricing-period">One-time payment · Lifetime access · Instant PDF delivery</div>
+        <ul class="pricing-features">
+          <li>Full 7-chapter Corporate Operator Field Guide</li>
+          <li>B2B pitch scripts, quote formula, close script</li>
+          <li>Corporate Prospect Hit List (50 categories)</li>
+          <li>Follow-up email templates + territory system</li>
+          <li>Instant download — access in under 60 seconds</li>
+          <li>Works in any US market, any inventory size</li>
+        </ul>
+        <!-- ⚠️ SWAP THIS URL: Replace with your real Stripe Payment Link -->
+        <a href="https://buy.stripe.com/6oU9AU88ecc8e1pan67ss1f" class="btn-checkout" id="checkout-btn">
+          Get Instant Access — $27 →
+        </a>
+        <div class="pricing-trust">
+          <span class="ptrust"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>Secure Stripe Checkout</span>
+          <span class="ptrust"><svg viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zM12 17c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/></svg>256-bit SSL Encrypted</span>
+          <span class="ptrust"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.11 0-2 .89-2 2v12c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/></svg>Powered by Stripe</span>
+        </div>
+        <div class="pricing-legaltext">
+          Instant PDF delivery upon payment. All sales final — no refunds.<br>
+          Payment processed by Diamond Media Publishing LLC.<br>
+          <a href="/terms">Terms of Service</a> · <a href="/privacy">Privacy Policy</a> · <a href="/refund">Refund Policy</a>
+        </div>
+      </div>
+
+      <!-- SOFTWARE UPSELL TEASER -->
+      <div class="upsell-banner">
+        <h3>Ready for the Full Software?</h3>
+        <p>The BounceCommand platform — B2B Pitch Vault, Luxury Quote Builder, PostCard Pro, and territory lock — is launching soon. Guide buyers get early access priority.</p>
+        <div class="coming">BounceCommand OS — Coming Soon · Guide Buyers Get First Access</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="faq-section">
+  <div class="container">
+    <div class="section-label">Questions</div>
+    <h2 class="section-title">Everything You Need to Know</h2>
+    <div class="faq-list">
+
+      <div class="faq-item">
+        <div class="faq-q">What exactly do I get when I buy?<span class="faq-icon">+</span></div>
+        <div class="faq-a">You get instant access to a PDF download of the BounceCommand Corporate Operator Playbook — 7 chapters covering how to identify, pitch, quote, and close corporate inflatable events from $5K to $20K+. You also get the BONUS Corporate Prospect Hit List (50 business categories). Everything is delivered via email within 60 seconds of purchase.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Do I need to be an established business to use this?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Yes — this guide is written for operators who already have inflatable equipment and have run events. If you're starting completely from scratch and have never run an inflatable rental, this is not your first step. This is the guide for operators ready to move up-market, not operators starting at zero.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Does this work if I only have a few inflatables?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Yes. Many of the corporate events in this guide's framework can be executed with 2–4 quality inflatables plus staffing. The corporate market pays for presentation, professionalism, and reliability — not inventory volume. One well-positioned operator with quality equipment and the right pitch beats a 30-unit operation with no corporate strategy every time.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Does this work in small markets or only major cities?<span class="faq-icon">+</span></div>
+        <div class="faq-a">The framework works in any US market. Corporate clients — HR directors, hotel event coordinators, real estate developers — exist in every city with a commercial business district. Mid-size and smaller markets often have less competition for corporate inflatable vendors, which means the territory strategy in Chapter 5 pays off faster.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How quickly can I see results?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Operators who apply the Chapter 2 pitch framework and send their first 5 corporate outreach emails in the first week have reported first corporate event inquiries within 3–10 days. Closing timelines vary — some corporate bookings close in 48 hours, others take 2–3 weeks depending on the client's event calendar. What changes immediately is your position: you stop competing with every birthday party operator in your area and start playing a different game entirely.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What's the difference between this guide and the BounceCommand software?<span class="faq-icon">+</span></div>
+        <div class="faq-a">This guide is the strategy and system — it teaches you what to say, who to target, how to price, and how to close. The BounceCommand OS platform (coming soon) is the operational infrastructure — the actual software tools to build and send proposals, manage bookings, run the PostCard Pro mailer, and lock your territory. The guide works completely standalone right now. When the software launches, guide buyers get priority access.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Is there a refund policy?<span class="faq-icon">+</span></div>
+        <div class="faq-a">All sales are final. No refunds are issued on digital products after purchase. Because this is an instant-access digital download, we cannot recover the product once it's been delivered. Please review what's included before purchasing. If you have questions about the guide before buying, email hello@diamondmediapublishing.com.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Who publishes this guide?<span class="faq-icon">+</span></div>
+        <div class="faq-a">BounceCommand is owned and operated by Diamond Media Publishing LLC — a digital media and publishing company operating 38+ digital properties across SaaS, digital products, professional services, and content platforms. Questions: hello@diamondmediapublishing.com</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">I have a question before I buy. How do I reach you?<span class="faq-icon">+</span></div>
+        <div class="faq-a">Email hello@diamondmediapublishing.com — we respond within 24 hours Monday–Friday. Please include "BounceCommand Guide" in your subject line.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA STRIP -->
+<div style="background:var(--navy2);border-top:1px solid rgba(43,191,179,.1);border-bottom:1px solid rgba(43,191,179,.1);padding:4rem 2rem;text-align:center">
+  <p style="font-family:'Bebas Neue',sans-serif;font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1rem">One Corporate Event Covers This 185 Times Over.</p>
+  <p style="color:var(--gray);max-width:460px;margin:0 auto 2rem;font-size:.95rem">The companies in your city are already looking for a professional inflatable vendor. The operator who reads this guide gets the call. The one who doesn't loses the market.</p>
+  <a href="#pricing" class="btn-primary" style="font-size:1.05rem;padding:1rem 2.5rem">
+    <svg viewBox="0 0 24 24" style="width:18px;height:18px;fill:currentColor"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+    Get the Playbook Now — $27
+  </a>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Bounce<span>Command</span></div>
+  <ul class="footer-links">
+    <li><a href="/terms">Terms of Service</a></li>
+    <li><a href="/privacy">Privacy Policy</a></li>
+    <li><a href="/refund">Refund Policy</a></li>
+    <li><a href="mailto:hello@diamondmediapublishing.com">Contact</a></li>
+  </ul>
+  <p>© 2026 BounceCommand · tropicalbounce.com · Owned and operated by Diamond Media Publishing LLC<br>
+  All sales final · No refunds · Payments processed by Diamond Media Publishing LLC</p>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+// Hamburger menu
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobile-menu');
+hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('open');
+  mobileMenu.classList.toggle('open');
+});
+// Close mobile menu on link click
+mobileMenu.querySelectorAll('a').forEach(a => {
+  a.addEventListener('click', () => {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+  });
+});
+
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(q => {
+  q.addEventListener('click', () => {
+    const item = q.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+// Checkout button — swap Stripe Payment Link URL in the href above
+// To go live: replace https://buy.stripe.com/6oU9AU88ecc8e1pan67ss1f
+// with your actual Stripe Payment Link URL from your Stripe dashboard
+</script>
+</body>
+</html>
